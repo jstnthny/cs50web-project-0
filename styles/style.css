@@ -1,17 +1,44 @@
+body{
+   background-color: #202124;
+}
+
 .flexContainer{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin-top: 120px;
 }
 
 form{
    display: flex;
    flex-direction: column;
+   width: 100%;
+   align-items: center;
+}
+
+form > input{
+   border-radius: 20px;
+   border: 1px solid #36373b;
+   background-color: #202124;
+   padding: 13px 20px;
+   width: 35%;
+   margin-top: 20px;
+   color: #fff;
 }
 
 .buttonsContainer{
    display: flex;
+   margin-top: 20px;
+}
+
+.buttonsContainer > input{
+   border-radius: 5px;
+   border: 1px solid #303134;
+   background-color: #303134;
+   color: #fff;
+   padding: 12px 17px;
+   margin: 10px;
 }
 
 .links{
