@@ -45,3 +45,48 @@ form > input{
    display: flex;
    justify-content: flex-end;
 }
+
+.links > a {
+   color: #fff;
+   margin: 10px;
+   text-decoration: none;
+}
+
+/* Advanced Search Page */
+
+
+
+.advancedSearch h2{
+   color: #F18B82;
+}
+
+.advancedSearchBox{
+   background-color: #AECBFA;
+   color: #000;
+   width: fit-content;
+   border-radius: 0;
+}
+
+.advancedSearch p, label, h3 {
+   color: #fff;
+}
+
+.advancedSearch form{
+   justify-content: flex-start;
+   align-items: flex-end;
+   width: 700px;
+}
+
+.inputContainer{
+   width: 100%;
+   display: flex;
+
+}
+
+.inputContainer label{
+   width: 200px;
+}
+
+.inputContainer input{
+   width: 500px;
+}
